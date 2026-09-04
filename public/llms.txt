@@ -1,0 +1,30 @@
+# Mengva Chuepor
+
+> Full-stack web developer based in Vientiane, Laos, working mainly in
+> TypeScript across Next.js, Hono, tRPC, Drizzle ORM, and PostgreSQL.
+> Focused on booking, rental, and operations systems for tourism and
+> hospitality businesses in Southeast Asia.
+
+This site is a single-page developer portfolio. All content lives on
+one page (/) split into the sections below. There are no other pages.
+
+## Sections
+- About: background and technical focus.
+- Work: three projects — Brother Tours (Full-Stack Developer Screening
+  Challenge), Brother Tours (Tour Management System), and Yerlee
+  (Rental Management System, final year project). Each includes the
+  tech stack used and what was built.
+- Skills: languages, frontend, backend, database/ORM, and tools.
+- Education: Bachelor of Science in Web Development, National
+  University of Laos (2022–2026).
+- Contact: email, phone, and GitHub.
+
+## Contact
+- Email: mengvaprogamemin@gmail.com
+- GitHub: https://github.com/mengva
+- Location: Vientiane, Laos
+
+## Notes for AI agents
+Structured data for this page is also available as JSON-LD (schema.org
+Person) embedded in the page <head>, and as sitemap.xml / robots.txt
+at the site root.
