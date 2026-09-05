@@ -1,4 +1,5 @@
 import { profile } from "@/lib/data";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -12,20 +13,20 @@ export default function Hero() {
       </p>
 
       <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-paper-muted">
-        <a
+        <Link
           href={`mailto:${profile.email}`}
           className="hover:text-teal transition-colors focus-ring"
         >
           {profile.email}
-        </a>
-        <a
+        </Link>
+        <Link
           href={profile.github}
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-teal transition-colors focus-ring"
         >
           {profile.githubHandle}
-        </a>
+        </Link>
         <span>{profile.location}</span>
       </div>
 
