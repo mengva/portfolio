@@ -10,12 +10,14 @@ export default function Nav() {
   return (
     <header className="lg:fixed lg:inset-y-0 lg:left-0 lg:w-64 lg:flex lg:flex-col lg:justify-between border-b lg:border-b-0 lg:border-r border-ink-600/60 px-6 lg:px-8 py-6 lg:py-12">
       <div>
-        <Link
-          href="/"
-          className="font-display text-lg text-paper focus-ring inline-block"
-        >
-          Mengva Chuepor
-        </Link>
+        <h1>
+          <Link
+            href="/"
+            className="font-display text-lg text-paper focus-ring inline-block"
+          >
+            Mengva Chuepor
+          </Link>
+        </h1>
         <nav aria-label="Site navigation" className="mt-4 lg:mt-10">
           <ul className="flex flex-wrap gap-x-5 gap-y-2 lg:flex-col lg:gap-3">
             {navItems.map((item) => {
@@ -25,11 +27,10 @@ export default function Nav() {
                   <Link
                     href={item.href}
                     aria-current={active ? "page" : undefined}
-                    className={`text-sm transition-colors focus-ring inline-block w-full ${
-                      active
+                    className={`text-sm transition-colors focus-ring inline-block w-full ${active
                         ? "text-teal"
                         : "text-paper-muted hover:text-teal"
-                    }`}
+                      }`}
                   >
                     {item.label}
                   </Link>

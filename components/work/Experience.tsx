@@ -3,7 +3,7 @@ import { projects } from "@/lib/data";
 export default function Experience() {
   return (
     <section id="work" className="py-16 border-t border-ink-600/60">
-      <h2 className="font-display text-2xl text-paper">Work</h2>
+      <h1 className="font-display text-2xl text-paper">Work</h1>
       <div className="mt-8 space-y-12">
         {projects.map((project) => (
           <article key={project.title} className="max-w-content">

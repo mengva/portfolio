@@ -3,7 +3,7 @@ import { educations } from "@/lib/data";
 export default function Education() {
   return (
     <section id="education" className="py-16 border-t border-ink-600/60">
-      <h2 className="font-display text-2xl text-paper">Education</h2>
+      <h1 className="font-display text-2xl text-paper">Education</h1>
       {educations.map((education, index) => (
         <EducationItem key={index} education={education} />
       ))}

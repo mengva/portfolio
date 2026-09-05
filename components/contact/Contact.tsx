@@ -7,7 +7,7 @@ export default function Contact() {
       id="contact"
       className="py-16 border-t border-ink-600/60 pb-24"
     >
-      <h2 className="font-display text-2xl text-paper">Contact</h2>
+      <h1 className="font-display text-2xl text-paper">Contact</h1>
       <p className="mt-5 max-w-content text-paper-muted leading-relaxed">
         Open to full-stack roles and freelance projects, especially systems
         involving bookings, scheduling, or role-based access. Reach out
