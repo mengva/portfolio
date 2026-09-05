@@ -1,22 +1,12 @@
-import Nav from "@/components/Nav";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Experience from "@/components/Experience";
-import Skills from "@/components/Skills";
-import Education from "@/components/Education";
-import Contact from "@/components/Contact";
+import Hero from "@/components/home/Hero";
+import QuickLinks from "@/components/home/QuickLinks";
 
 export default function Home() {
   return (
     <>
-      <Nav />
-      <main className="px-6 sm:px-10 lg:pl-80 lg:pr-16 max-w-5xl">
+      <main className="px-6 sm:px-10 lg:pl-80 lg:pr-16 max-w-5xl pb-24">
         <Hero />
-        <About />
-        <Experience />
-        <Skills />
-        <Education />
-        <Contact />
+        <QuickLinks />
       </main>
     </>
   );

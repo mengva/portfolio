@@ -101,9 +101,9 @@ export const educations = [
 ];
 
 export const navItems = [
-  { href: "#about", label: "About" },
-  { href: "#work", label: "Work" },
-  { href: "#skills", label: "Skills" },
-  { href: "#education", label: "Education" },
-  { href: "#contact", label: "Contact" },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/work", label: "Work" },
+  { href: "/skills", label: "Skills" },
+  { href: "/contact", label: "Contact" },
 ];

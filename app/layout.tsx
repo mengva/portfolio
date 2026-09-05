@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Fraunces, IBM_Plex_Sans } from "next/font/google";
+// @ts-expect-error Next.js processes global CSS imports at build time.
 import "./globals.css";
 import { profile } from "@/lib/data";
+import Nav from "@/components/layout/Nav";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -111,6 +113,7 @@ export default function RootLayout({
     <html lang="en" className={`${fraunces.variable} ${plex.variable}`}>
       <body className="font-body antialiased">
         <PersonJsonLd />
+        <Nav />
         {children}
       </body>
     </html>
