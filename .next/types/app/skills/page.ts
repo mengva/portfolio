@@ -1,4 +1,4 @@
-// File: C:\Users\lmcom\Downloads\mengva-portfolio\portfolio\app\skills\page.tsx
+// File: C:\Users\lmcom\Desktop\mengva-portfolio\portfolio\app\skills\page.tsx
 import * as entry from '../../../../app/skills/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
